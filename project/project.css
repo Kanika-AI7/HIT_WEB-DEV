@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century Gothic;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.welcome{
+    font-size: 80px;
+    font-style: italic;
+    border: 2px transparent solid;
+    background-color: rgb(90, 107, 139);
+    width: fit-content;
+    margin-left:650px;
+    color: rgb(15, 36, 75);
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    background-image: url(../2.jpg);
+    height: 500vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+
+}
+
+ul li{
+    display: inline-block
+}
+
+ul li a{
+     text-decoration: none;
+     color: rgb(255, 255, 255);
+     padding: 2px 20px;
+     border: 1px solid transparent;
+     transition: 0.4s ease;;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+h2{
+    margin-top: 20px;
+    color:rgb(177, 226, 237);
+    border: 1px rgb(53, 128, 128) solid;
+}
+   
+.intro{
+    margin-top: 30px;
+    font-size: 25px;
+}
+.home{
+    margin-top: 25px;
+    font-size: 30px;
+    color: rgb(169, 178, 231);
+}
+.home-content{
+         font-size: 20px;
+         font-weight: 20px;
+}
+.img{
+      align-items: initial;
+      align-content: initial;
+}
+.Needs{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.Nivedita{
+    margin-top: 15px;
+    font-size: 40px;
+}
+.nive{
+    font-size: 20px;
+    font-style: italic;
+    color: aliceblue;
+}
+h4{
+    font-size:30px ;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+ol{
+    font-size: 20px;
+    font-weight: 40;
+    margin: auto;
+    padding: auto;
+}
+.ni{
+    font-weight: 50px;
+    font-style: italic;
+    color: #000;
+}
+.grab{
+    font-size: 20px;
+}
